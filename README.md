@@ -207,7 +207,9 @@ SalesAggregator/
 ### ❌ Проблема: "Java не найдена" / "'java' is not recognized"
 
 **Решение:**
-1. Убедитесь, что Java JDK установлена: [Скачать Oracle JDK](https://www.oracle.com/java/technologies/downloads/)
+1. Убедитесь, что Java JDK установлена:
+   - [Скачать Oracle JDK](https://www.oracle.com/java/technologies/downloads/)
+   - [Скачать OpenJDK](https://adoptium.net/) (рекомендуется для образовательных целей)
 2. Проверьте переменную окружения `JAVA_HOME`:
    - **Windows:** `echo %JAVA_HOME%`
    - **macOS/Linux:** `echo $JAVA_HOME`
